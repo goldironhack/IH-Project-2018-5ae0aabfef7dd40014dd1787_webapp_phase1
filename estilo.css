@@ -1,0 +1,106 @@
+/*CSS Desarrollado por Juan Sebastian Becerra Barcenas*/
+
+/*Definición de fuentes*/
+
+
+@font-face{
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+
+
+
+
+/* estilo del título con un Header */
+header{
+
+    height: 150px;
+    background: url(https://odis.homeaway.com/odis/destination/aebc04da-3591-4ea4-bfe8-f5ea726a4447.hw1.jpg);
+    background-position: 45% 30%;
+    background-repeat: no-repeat;
+    background-color: #aabdf0;
+    background-size:cover;
+    background-position:center;
+
+
+}
+
+.cuerpo{
+
+  background-color:#aabdf0;
+  margin:0px;
+
+
+}
+.titulo1{
+    font-family: Nunito;
+    font-size: 60px;
+    font-weight: normal;
+    padding-top: 50px;
+    padding-left: 380px;
+    margin: 0px;
+
+}
+/* Diseño del Menu de navegación */
+.menu {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    font-family: Nunito;
+    font-size: 16px;
+    background: #00b7ff;
+    width: 100%;
+    
+
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    background: #00b7ff;
+    margin : 0px;
+
+
+}
+.menu ul ul{
+    display: none;
+
+}
+.menu a{
+    display: block;
+    margin-top: 0px;
+    border-color: black;
+    margin-bottom: 0px;
+    padding: 25px 50px 25px 50px;
+    text-decoration: none;
+    color: #000000;
+    cursor: url(../imagenes/ani837.cur), pointer;
+    cursor: url(../imagenes/ani837.cur), hand;
+}
+.menu a:hover{
+    background-color: #585858;
+
+}
+.menu a ul:hover{
+    background-color: #585858;
+}
+.menu ul li:hover ul{
+    display: block;
+    position: absolute;
+
+}
+.imagen_earth{
+    margin-left: 0px;
+    margin-top: -3px;
+    margin-right: 20px;
+    float: right;
+    overflow: hidden;
+
+}
+
+.map{
+  height: 400px;
+  width: 59%;
+  margin-top:1.5%;
+  margin-left: 38px;
+}
